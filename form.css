@@ -1,0 +1,57 @@
+form{
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+input{
+    padding: 10px ;
+    margin: 5px;
+    font-size: 1em;
+    border: 1px solid gray;
+} 
+input.email{
+    background-image: url(images-2.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+}
+input.pass{
+    background-image: url(images-3.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+}
+input:focus{
+    border-color: royalblue;
+    /* background-color: salmon; */
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+fieldset{
+    border-radius: 5px;
+    border:1px solid gray ;
+}
+legend{
+    background-color: lightgray;
+    color: royalblue;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+div{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
